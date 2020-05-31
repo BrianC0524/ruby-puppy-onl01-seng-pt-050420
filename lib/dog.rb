@@ -28,7 +28,7 @@ class Dog
     
   end
   
-  def self.save
+  def save
     
     @@all.push(self)
     
