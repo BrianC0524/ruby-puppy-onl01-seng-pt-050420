@@ -3,22 +3,22 @@ class Dog
   
   attr_accessor :name
   
-   @@all_dogs = []
+   @@all = []
   def initialize(name)
     
-    @@all_dogs.push(self)
+    @@all.push(self)
     
   end
   
   def self.all
     
-    return @@all_dogs
+    return @@all
     
   end
   
   def self.print_all
     
-    @@all_dogs.each {|dog| puts dog}
+    @@all.each {|dog| puts dog}
     
   end
   
